@@ -1,0 +1,30 @@
+---
+title: "Assignment 1"
+author: "Pleuni Kirch"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+#install.packages(c("gsl","ggplot2"))
+# If you haven't install Bioconductor yet:
+#install.packages("BiocManager")
+#BiocManager::install()
+
+#BiocManager::install(c("GenomicRanges", "rtracklayer", "EnrichedHeatmap", "AnnotationHub", 
+#                       "ensembldb", "edgeR", "esATAC", "sechm","genomation","Rsubread","Rfastp"))
+#install.packages("cowplot")
+#BiocManager::install("ETHZ-INS/epiwraps")
+
+
+## load library
+library(epiwraps)
+
+## print session info
+sessionInfo()
+```
+
